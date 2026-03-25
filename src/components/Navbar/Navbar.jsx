@@ -4,12 +4,12 @@ import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
     const links = <>
-        <NavLink><li>Home</li></NavLink>
-        <NavLink><li>Apps</li></NavLink>
-        <NavLink><li>Installation</li></NavLink>
+        <NavLink to="/">Home</NavLink>
+        <NavLink>Apps</NavLink>
+        <NavLink>Installation</NavLink>
     </>
     return (
-        <div className="bg-base-100 py-1 shadow-sm">
+        <div className="bg-base-100 py-0 md:py-1 shadow-xs sticky top-0">
             <div className="navbar container mx-auto px-2">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -18,12 +18,12 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex="-1"
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-semibold space-y-3">
+                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-semibold space-y-2">
                             {links}
                         </ul>
                     </div>
-                    <Link className="btn btn-ghost text-xl">
-                        <img className="w-10" src={logoImg} alt="Logo" />
+                    <Link to="/" className="flex items-center text-sm md:text-xl cursor-pointer">
+                        <img className="w-6 md:w-10" src={logoImg} alt="Logo" />
                         <span className="bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold">HERO.IO</span>
                     </Link>
                 </div>
@@ -33,7 +33,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="btn bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white"><FaGithub className="text-lg" /> Contribute</button>
+                    <button className="btn btn-sm lg:btn-md bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white"><FaGithub className="text-lg" /> Contribute</button>
                 </div>
             </div>
         </div>
