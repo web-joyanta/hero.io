@@ -6,3 +6,9 @@
 * {
   font-family: "Inter", sans-serif;
 }
+
+.main-container {
+  width: 1536px;
+  padding: 10px;
+  margin: auto;
+}
