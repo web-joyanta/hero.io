@@ -33,7 +33,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="btn btn-sm lg:btn-md bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white"><FaGithub className="text-lg" /> Contribute</button>
+                    <Link to="https://github.com/web-joyanta" className="btn btn-sm lg:btn-md bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white"><FaGithub className="text-lg" /> Contribute</Link>
                 </div>
             </div>
         </div>

@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.ibb.co.com/fYXGNpMd/unnamed-3.png",
+    "title": "QuickNotes - Smart Note Taking",
+    "companyName": "HERO.IO",
+    "id": 1,
+    "description": "At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. SmartNotes keeps your notes organized and accessible anywhere.",
+    "size": 25,
+    "reviews": 1500,
+    "ratingAvg": 4.5,
+    "downloads": "0.1M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/C53GHV6t/unnamed-4.png",
+    "title": "FitTrack - Workout & Fitness Tracker",
+    "companyName": "HERO.IO",
+    "id": 2,
+    "description": "FitTrack helps you track workouts, monitor progress, and achieve fitness goals easily with smart analytics.",
+    "size": 35,
+    "reviews": 2400,
+    "ratingAvg": 4.6,
+    "downloads": "0.3M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1525 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/VWNWZjhH/unnamed-5.png",
+    "title": "TravelBuddy - Trip Planner & Guide",
+    "companyName": "HERO.IO",
+    "id": 3,
+    "description": "Plan your trips with TravelBuddy – smart itineraries, hotel suggestions, and local experiences all in one app.",
+    "size": 45,
+    "reviews": 1800,
+    "ratingAvg": 4.4,
+    "downloads": "0.2M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 970 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vC3xHjq8/unnamed-6.png",
+    "title": "RecipeMaster - Cooking Made Easy",
+    "companyName": "HERO.IO",
+    "id": 4,
+    "description": "Discover and share amazing recipes. RecipeMaster makes cooking fun, easy, and social.",
+    "size": 30,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
+    "downloads": "0.2M",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 1415 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/cXTqCmXN/images-2.jpg",
+    "title": "MindCalm - Meditation & Relaxation",
+    "companyName": "HERO.IO",
+    "id": 5,
+    "description": "MindCalm helps you meditate, reduce stress, and focus better every day.",
+    "size": 28,
+    "reviews": 1700,
+    "ratingAvg": 4.5,
+    "downloads": "0.2M",
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 920 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/fYQgB7sV/unnamed-7.png",
+    "title": "BudgetWise - Expense Manager",
+    "companyName": "HERO.IO",
+    "id": 6,
+    "description": "Take control of your finances. BudgetWise tracks expenses, creates budgets, and offers smart saving tips.",
+    "size": 32,
+    "reviews": 1900,
+    "ratingAvg": 4.3,
+    "downloads": "0.1M",
+    "ratings": [
+      { "name": "1 star", "count": 55 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1050 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/wZgGQfmr/images-3.jpg",
+    "title": "PhotoGenie - AI Photo Editor",
+    "companyName": "HERO.IO",
+    "id": 7,
+    "description": "Edit and enhance photos like a pro. PhotoGenie gives you AI-powered tools for stunning results.",
+    "size": 50,
+    "reviews": 3000,
+    "ratingAvg": 4.8,
+    "downloads": "0.3M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 2065 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LDVtR73y/unnamed-8.png",
+    "title": "LearnLang - Language Learning App",
+    "companyName": "HERO.IO",
+    "id": 8,
+    "description": "Master new languages with interactive lessons and AI-powered conversation practice.",
+    "size": 40,
+    "reviews": 2200,
+    "ratingAvg": 4.6,
+    "downloads": "0.2M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1335 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/3m8RQWKN/unnamed-9.png",
+    "title": "DailyPlanner - Task & Schedule Manager",
+    "companyName": "HERO.IO",
+    "id": 9,
+    "description": "Organize your day, set reminders, and boost productivity with DailyPlanner.",
+    "size": 20,
+    "reviews": 1800,
+    "ratingAvg": 4.4,
+    "downloads": "0.2M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 975 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/pjzYz3Qq/a592efab895f7f5021666c5e8cdb48cb-icon.png",
+    "title": "MusicFlow - Stream Music & Playlists",
+    "companyName": "HERO.IO",
+    "id": 10,
+    "description": "Stream your favorite music and discover new tracks with smart playlists.",
+    "size": 60,
+    "reviews": 4000,
+    "ratingAvg": 4.7,
+    "downloads": "0.5M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 2880 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/xKpp97d2/unnamed-10.png",
+    "title": "ShopEase - Online Shopping App",
+    "companyName": "HERO.IO",
+    "id": 11,
+    "description": "E-commerce app that makes shopping fast, easy, and rewarding.",
+    "size": 55,
+    "reviews": 3200,
+    "ratingAvg": 4.5,
+    "downloads": "0.4M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/r2zgqRMQ/unnamed-11.png",
+    "title": "WeatherPro - Live Weather Forecast",
+    "companyName": "HERO.IO",
+    "id": 12,
+    "description": "Accurate weather forecasts with smart alerts and interactive maps.",
+    "size": 25,
+    "reviews": 1500,
+    "ratingAvg": 4.4,
+    "downloads": "0.2M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 780 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/GfVpvTkR/unnamed-12.png",
+    "title": "TaskHero - ToDo & Productivity",
+    "companyName": "HERO.IO",
+    "id": 13,
+    "description": "Simplify your tasks and to-do lists. TaskHero helps you stay productive effortlessly.",
+    "size": 18,
+    "reviews": 1700,
+    "ratingAvg": 4.5,
+    "downloads": "0.2M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 950 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/rKrhqTcV/unnamed-13.png",
+    "title": "SleepWell - Sleep Tracker & Relax",
+    "companyName": "HERO.IO",
+    "id": 14,
+    "description": "Track your sleep patterns and improve rest with smart insights and relaxing sounds.",
+    "size": 22,
+    "reviews": 1600,
+    "ratingAvg": 4.6,
+    "downloads": "0.1M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 875 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qMDHZt96/unnamed-14.png",
+    "title": "DailyQuotes - Motivation Everyday",
+    "companyName": "HERO.IO",
+    "id": 15,
+    "description": "Get inspired every day with motivational quotes and personalized notifications.",
+    "size": 15,
+    "reviews": 1300,
+    "ratingAvg": 4.3,
+    "downloads": "0.1M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Gvjf5xCp/unnamed-15.png",
+    "title": "ExpenseTracker - Money Manager",
+    "companyName": "HERO.IO",
+    "id": 16,
+    "description": "Track daily expenses, manage budgets, and save smarter with ExpenseTracker.",
+    "size": 30,
+    "reviews": 1900,
+    "ratingAvg": 4.5,
+    "downloads": "0.2M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 1080 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/T3TcYwL/unnamed-16.png",
+    "title": "PhotoCollage - Grid & Layout Maker",
+    "companyName": "HERO.IO",
+    "id": 17,
+    "description": "Create stunning photo collages in seconds with easy-to-use templates.",
+    "size": 35,
+    "reviews": 2100,
+    "ratingAvg": 4.6,
+    "downloads": "0.2M",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1345 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6R9RRmK0/unnamed-17.png",
+    "title": "QuickTranslator - Translate Instantly",
+    "companyName": "HERO.IO",
+    "id": 18,
+    "description": "Translate text instantly into multiple languages with accurate results.",
+    "size": 40,
+    "reviews": 2300,
+    "ratingAvg": 4.7,
+    "downloads": "0.2M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1455 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/MHmwrqG/News-Flash-app-icon-svg.png",
+    "title": "NewsFlash - Latest News Updates",
+    "companyName": "HERO.IO",
+    "id": 19,
+    "description": "Stay updated with latest news from around the world in one app.",
+    "size": 50,
+    "reviews": 2700,
+    "ratingAvg": 4.4,
+    "downloads": "0.3M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1505 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1J0G2XRK/unnamed-18.png",
+    "title": "QuickNotes - Notes & Reminders",
+    "companyName": "HERO.IO",
+    "id": 20,
+    "description": "QuickNotes lets you jot down ideas and reminders instantly with cloud sync.",
+    "size": 18,
+    "reviews": 1600,
+    "ratingAvg": 4.5,
+    "downloads": "0.2M",
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 860 }
+    ]
+  }
+]
