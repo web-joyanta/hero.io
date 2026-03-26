@@ -18,7 +18,7 @@ const Apps = () => {
     };
 
     useEffect(() => {
-        fetch("data.json")
+        fetch("/data.json")
             .then(res => res.json())
             .then(data => {
                 setApps(data);

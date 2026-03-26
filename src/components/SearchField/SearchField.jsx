@@ -1,6 +1,6 @@
 import { CiSearch } from 'react-icons/ci';
 
-const SearchField = ({apps, handleSearch}) => {
+const SearchField = ({ apps, handleSearch }) => {
     return (
         <div className="flex flex-col md:flex-row justify-between gap-2 items-center pb-5">
             <h4 className="text-lg md:text-2xl font-semibold">({apps.length}) Apps Found</h4>

@@ -4,7 +4,7 @@ import HeroStats from "./HeroStats/HeroStats";
 import TrendingApps from "./TrendingApps/TrendingApps";
 import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 
-const appsPromise = fetch("data.json").then(res => res.json());
+const appsPromise = fetch("/data.json").then(res => res.json());
 const Home = () => {
     return (
         <div >
