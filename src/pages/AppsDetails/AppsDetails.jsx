@@ -2,8 +2,9 @@ import { useLoaderData, useParams } from "react-router";
 import downloadIcon from "../../assets/icon-downloads.png"
 import ratingsIcon from "../../assets/icon-ratings.png"
 import reviewsIcon from "../../assets/icon-review.png"
-import { BarChart } from "recharts";
 import RatingsChart from "../../components/RatingsChart/RatingsChart";
+import { getLocalStorage, setLocalStorage } from "../../utility/LocalStorage";
+import { useEffect } from "react";
 
 const AppsDetails = () => {
     const apps = useLoaderData();
@@ -12,6 +13,10 @@ const AppsDetails = () => {
 
     const app = apps.find(app => app.id === appId);
     const { image, title, companyName, downloads, ratingAvg, reviews, size, ratings, description } = app;
+
+    const handleInstall = (id) => {
+        setLocalStorage(id)
+    }
     return (
         <div className="bg-[#F5F5F5]">
             <div className="container mx-auto px-2 py-10 md:py-20">
@@ -40,7 +45,7 @@ const AppsDetails = () => {
                                 <h4 className="text-2xl md:text-4xl font-bold">{reviews}K</h4>
                             </div>
                         </div>
-                        <button className="btn md:btn-lg btn-success text-white mt-5 md:mt-10">Install Now ({size} MB)</button>
+                        <button disabled={app.installed} onClick={() => handleInstall(id)} className="btn md:btn-lg btn-success text-white mt-5 md:mt-10">Install Now ({size} MB)</button>
                     </div>
                 </div>
                 <div className="divider"></div>

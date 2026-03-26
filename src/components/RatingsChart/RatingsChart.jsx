@@ -10,7 +10,7 @@ const ORANGE = "#FF8811";
 
 export default function RatingsChart({ ratings, height = 250 }) {
     return (
-        <div className="rounded-xl py-3 w-full ">
+        <div className="rounded-xl py-3 w-full z-0">
             <h4 className="text-xl md:text-2xl font-semibold pb-2">Ratings</h4>
             <ResponsiveContainer width="100%" height={height}>
                 <BarChart
