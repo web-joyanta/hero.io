@@ -3,8 +3,7 @@ import downloadIcon from "../../assets/icon-downloads.png"
 import ratingsIcon from "../../assets/icon-ratings.png"
 import reviewsIcon from "../../assets/icon-review.png"
 import RatingsChart from "../../components/RatingsChart/RatingsChart";
-import { getLocalStorage, setLocalStorage } from "../../utility/LocalStorage";
-import { useEffect } from "react";
+import { setLocalStorage } from "../../utility/LocalStorage";
 
 const AppsDetails = () => {
     const apps = useLoaderData();
@@ -32,7 +31,7 @@ const AppsDetails = () => {
                             <div>
                                 <img className="w-7 md:w-10" src={downloadIcon} alt="downloadIcon" />
                                 <p className="py-1 md:py-2">Downloads</p>
-                                <h4 className="text-2xl md:text-4xl font-bold">{downloads}</h4>
+                                <h4 className="text-2xl md:text-4xl font-bold">{downloads}M</h4>
                             </div>
                             <div>
                                 <img className="w-7 md:w-10" src={ratingsIcon} alt="downloadIcon" />

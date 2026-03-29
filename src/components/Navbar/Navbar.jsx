@@ -6,7 +6,7 @@ const Navbar = () => {
     const links = <>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/apps">Apps</NavLink>
-        <NavLink to="installation">Installation</NavLink>
+        <NavLink to="/installed">Installed</NavLink>
     </>
     return (
         <div className="bg-base-100 py-0 md:py-1 shadow-xs sticky top-0">

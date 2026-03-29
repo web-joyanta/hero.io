@@ -8,9 +8,9 @@ const getLocalStorage = () => {
 
 const setLocalStorage = (id) => {
     const allApps = getLocalStorage();
-    const isAlreadyExist = allApps.find((a) => a.id === id);
+    const isAlreadyExist = allApps.includes(id);
     if (!isAlreadyExist) {
-        allApps.push({ id });
+        allApps.push(id);
         localStorage.setItem("appList", JSON.stringify(allApps));
         return Swal.fire({
             title: "Installed Successfully!",

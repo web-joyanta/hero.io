@@ -8,7 +8,7 @@
     "size": 225,
     "reviews": 47,
     "ratingAvg": 4.5,
-    "downloads": "6M",
+    "downloads": 6,
     "ratings": [
       { "name": "1 star", "count": 50 },
       { "name": "2 star", "count": 30 },
@@ -26,7 +26,7 @@
     "size": 135,
     "reviews": 82,
     "ratingAvg": 4.6,
-    "downloads": "8M",
+    "downloads": 8,
     "ratings": [
       { "name": "1 star", "count": 40 },
       { "name": "2 star", "count": 35 },
@@ -44,7 +44,7 @@
     "size": 345,
     "reviews": 61,
     "ratingAvg": 4.4,
-    "downloads": "3M",
+    "downloads": 3,
     "ratings": [
       { "name": "1 star", "count": 60 },
       { "name": "2 star", "count": 50 },
@@ -62,7 +62,7 @@
     "size": 230,
     "reviews": 39,
     "ratingAvg": 4.7,
-    "downloads": "7M",
+    "downloads": 7,
     "ratings": [
       { "name": "1 star", "count": 25 },
       { "name": "2 star", "count": 30 },
@@ -80,7 +80,7 @@
     "size": 128,
     "reviews": 95,
     "ratingAvg": 4.5,
-    "downloads": "9M",
+    "downloads": 9,
     "ratings": [
       { "name": "1 star", "count": 45 },
       { "name": "2 star", "count": 35 },
@@ -94,11 +94,11 @@
     "title": "BudgetWise - Expense Manager",
     "companyName": "HERO.IO",
     "id": 6,
-    "description": "BudgetWise is a personal finance app built for people who want to take genuine control of their money without needing a degree in accounting. Most people know they should budget, but the process feels tedious and confusing — multiple bank accounts, scattered receipts, inconsistent habits, and no clear picture of where money actually goes. BudgetWise eliminates that confusion with an elegant system that turns financial management into something you actually look forward to doing each day.\n\nAt the core of BudgetWise is effortless expense tracking. Link your bank accounts and credit cards for automatic transaction import, or log expenses manually in seconds with a clean, fast entry screen. The app uses intelligent categorization to sort spending into groups like food, transport, entertainment, bills, and savings without you lifting a finger. Over time the AI learns your spending patterns and improves its categorization accuracy, making the experience increasingly seamless.\n\nBudget creation is intuitive and flexible. Set monthly limits for each spending category, and BudgetWise sends timely alerts when you are approaching your limit, helping you course-correct before overspending. The visual spending dashboard shows at a glance how your current month compares to your targets and to previous months. Bill tracking reminds you of upcoming payments so you never miss a due date or incur an unnecessary late fee. Recurring expenses are automatically detected and logged, keeping your budget up to date without manual effort.\n\nBudgetWise's savings goals feature lets you define specific financial targets — an emergency fund, a vacation, a new device, or a down payment — and tracks your progress with motivating visuals. The smart saving tips engine analyzes your habits and suggests realistic adjustments, like which subscriptions you might be overpaying for or spending categories where small reductions would have the biggest impact. Financial reports give you a comprehensive monthly and annual overview of your money story. BudgetWise turns financial stress into financial confidence, one small decision at a time.",
+    "description": "BudgetWise is a personal finance app built for people who want to take genuine control of their money without needing a degree in accounting. Most people know they should budget, but the process feels tedious and confusing — multiple bank accounts, scattered receipts, inconsistent habits, and no clear picture of where money actually goes. BudgetWise eliminates that confusion with an elegant system that turns financial management into something you actually look forward to doing each day.\n\nAt the core of BudgetWise is effortless expense tracking. Link your bank accounts and credit cards for automatic transaction import, or log expenses manually in seconds with a clean, fast entry screen. The app uses intelligent categorization to sort spending into groups like food, transport, entertainment, bills, and savings without you lifting a finger. Over time the AI learns your spending patterns and improves its categorization accuracy, making the experience increasingly seamless.\n\nBudget creation is intuitive and flexible. Set monthly limits for each spending category, and BudgetWise sends timely alerts when you are approaching your limit, helping you course-correct before overspending. The visual spending dashboard shows at a glance how your current month compares to your targets and to previous months. Bill tracking reminds you of upcoming payments so you never miss a due date or incur an unnecessary late fee. Recurring expenses are automatically detected and logged, keeping your budget up to date without manual effort.\n\nBudgetWise's savings goals feature lets you define specific financial targets — an emergency fund, a vacation, a new device, or a down payment — and tracks your progress with motivating visuals. The smart saving tips engine analyzes your habits and suggests realistic adjustments, like which subscriptions you might be overpaying for or spending categories where small reductions would have the biggest impact on your savings rate. Financial reports give you a comprehensive monthly and annual overview of your money story. BudgetWise turns financial stress into financial confidence, one small decision at a time.",
     "size": 132,
     "reviews": 53,
     "ratingAvg": 4.3,
-    "downloads": "4M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 55 },
       { "name": "2 star", "count": 45 },
@@ -116,7 +116,7 @@
     "size": 350,
     "reviews": 78,
     "ratingAvg": 4.8,
-    "downloads": "5M",
+    "downloads": 5,
     "ratings": [
       { "name": "1 star", "count": 20 },
       { "name": "2 star", "count": 15 },
@@ -134,7 +134,7 @@
     "size": 240,
     "reviews": 36,
     "ratingAvg": 4.6,
-    "downloads": "2M",
+    "downloads": 2,
     "ratings": [
       { "name": "1 star", "count": 30 },
       { "name": "2 star", "count": 25 },
@@ -152,7 +152,7 @@
     "size": 320,
     "reviews": 67,
     "ratingAvg": 4.4,
-    "downloads": "1M",
+    "downloads": 1,
     "ratings": [
       { "name": "1 star", "count": 50 },
       { "name": "2 star", "count": 45 },
@@ -170,7 +170,7 @@
     "size": 460,
     "reviews": 91,
     "ratingAvg": 4.7,
-    "downloads": "7M",
+    "downloads": 7,
     "ratings": [
       { "name": "1 star", "count": 40 },
       { "name": "2 star", "count": 30 },
@@ -188,7 +188,7 @@
     "size": 355,
     "reviews": 44,
     "ratingAvg": 4.5,
-    "downloads": "3M",
+    "downloads": 3,
     "ratings": [
       { "name": "1 star", "count": 60 },
       { "name": "2 star", "count": 40 },
@@ -206,7 +206,7 @@
     "size": 625,
     "reviews": 73,
     "ratingAvg": 4.4,
-    "downloads": "8M",
+    "downloads": 8,
     "ratings": [
       { "name": "1 star", "count": 40 },
       { "name": "2 star", "count": 30 },
@@ -224,7 +224,7 @@
     "size": 118,
     "reviews": 58,
     "ratingAvg": 4.5,
-    "downloads": "5M",
+    "downloads": 5,
     "ratings": [
       { "name": "1 star", "count": 30 },
       { "name": "2 star", "count": 20 },
@@ -242,7 +242,7 @@
     "size": 122,
     "reviews": 85,
     "ratingAvg": 4.6,
-    "downloads": "4M",
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 20 },
       { "name": "2 star", "count": 25 },
@@ -260,7 +260,7 @@
     "size": 215,
     "reviews": 42,
     "ratingAvg": 4.3,
-    "downloads": "1M",
+    "downloads": 1,
     "ratings": [
       { "name": "1 star", "count": 30 },
       { "name": "2 star", "count": 20 },
@@ -278,7 +278,7 @@
     "size": 130,
     "reviews": 69,
     "ratingAvg": 4.5,
-    "downloads": "7M",
+    "downloads": 7,
     "ratings": [
       { "name": "1 star", "count": 40 },
       { "name": "2 star", "count": 30 },
@@ -296,7 +296,7 @@
     "size": 435,
     "reviews": 97,
     "ratingAvg": 4.6,
-    "downloads": "2M",
+    "downloads": 2,
     "ratings": [
       { "name": "1 star", "count": 25 },
       { "name": "2 star", "count": 30 },
@@ -314,7 +314,7 @@
     "size": 140,
     "reviews": 51,
     "ratingAvg": 4.7,
-    "downloads": "5M",
+    "downloads": 5,
     "ratings": [
       { "name": "1 star", "count": 20 },
       { "name": "2 star", "count": 25 },
@@ -332,7 +332,7 @@
     "size": 250,
     "reviews": 76,
     "ratingAvg": 4.4,
-    "downloads": "3M",
+    "downloads": 3,
     "ratings": [
       { "name": "1 star", "count": 50 },
       { "name": "2 star", "count": 45 },
@@ -350,7 +350,7 @@
     "size": 318,
     "reviews": 38,
     "ratingAvg": 4.5,
-    "downloads": "2M",
+    "downloads": 2,
     "ratings": [
       { "name": "1 star", "count": 35 },
       { "name": "2 star", "count": 25 },
