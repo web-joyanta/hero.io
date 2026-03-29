@@ -1,7 +1,7 @@
 import Swal from "sweetalert2";
 
 const getLocalStorage = () => {
-    const allApps = localStorage.getItem("appList");
+    const allApps = localStorage.getItem("installedApps");
     if (allApps) return JSON.parse(allApps);
     return [];
 };
@@ -11,7 +11,7 @@ const setLocalStorage = (id) => {
     const isAlreadyExist = allApps.includes(id);
     if (!isAlreadyExist) {
         allApps.push(id);
-        localStorage.setItem("appList", JSON.stringify(allApps));
+        localStorage.setItem("installedApps", JSON.stringify(allApps));
         return Swal.fire({
             title: "Installed Successfully!",
             icon: "success",
@@ -28,4 +28,10 @@ const setLocalStorage = (id) => {
     }
 };
 
-export { getLocalStorage, setLocalStorage };
+const removeAppLocalStorage = (id) => {
+    const storedApps = JSON.parse(localStorage.getItem("installedApps"));
+    const updated = storedApps.filter(appId => parseInt(appId) !== id);
+    localStorage.setItem("installedApps", JSON.stringify(updated));
+}
+
+export { getLocalStorage, setLocalStorage, removeAppLocalStorage };

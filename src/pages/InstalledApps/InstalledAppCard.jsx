@@ -1,7 +1,7 @@
 import { FaStar } from "react-icons/fa";
 import { GoDownload } from "react-icons/go";
 
-const InstalledAppCard = ({ app }) => {
+const InstalledAppCard = ({ app, handleAppsUninstall }) => {
     return (
         <div className="bg-white p-4 shadow rounded-sm">
             {/* Mobile + Tablet + Desktop Container */}
@@ -10,7 +10,7 @@ const InstalledAppCard = ({ app }) => {
                 {/* App Info Section */}
                 <div className="flex items-center gap-4 md:gap-5">
                     <img
-                        className="w-12 h-12 md:w-20 md:h-20 rounded-lg object-cover flex-shrink-0"
+                        className="w-12 h-12 md:w-20 md:h-20 rounded-lg object-cover shrink-0"
                         src={app.image}
                         alt={app.title}
                     />
@@ -36,7 +36,7 @@ const InstalledAppCard = ({ app }) => {
 
                 {/* Uninstall Button */}
                 <div className="md:w-auto w-full md:text-right">
-                    <button className="btn btn-sm md:btn-md btn-success text-white w-full md:w-auto">
+                    <button onClick={() => handleAppsUninstall(app.id)} className="btn btn-sm md:btn-md btn-success text-white w-full md:w-auto">
                         Uninstall
                     </button>
                 </div>

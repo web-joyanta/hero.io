@@ -3,9 +3,11 @@ import downloadIcon from "../../assets/icon-downloads.png"
 import ratingsIcon from "../../assets/icon-ratings.png"
 import reviewsIcon from "../../assets/icon-review.png"
 import RatingsChart from "../../components/RatingsChart/RatingsChart";
+import { useState } from "react";
 import { setLocalStorage } from "../../utility/LocalStorage";
 
 const AppsDetails = () => {
+    const [isActive, setActive] = useState(false);
     const apps = useLoaderData();
     const { id } = useParams();
     const appId = parseInt(id);
@@ -14,16 +16,17 @@ const AppsDetails = () => {
     const { image, title, companyName, downloads, ratingAvg, reviews, size, ratings, description } = app;
 
     const handleInstall = (id) => {
-        setLocalStorage(id)
+        setLocalStorage(id);
+        setActive(true);
     }
     return (
         <div className="bg-[#F5F5F5]">
             <div className="container mx-auto px-2 py-10 md:py-20">
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-5 md:gap-10">
-                    <div class="">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-5 md:gap-10">
+                    <div className="">
                         <img className="w-full" src={image} alt="image" />
                     </div>
-                    <div class="md:col-span-3">
+                    <div className="md:col-span-3">
                         <h4 className="text-2xl md:text-4xl font-bold">{title}</h4>
                         <p className="text-[#627382] md:text-lg font-medium md:py-2">Developed by <span className="bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-semibold">{companyName}</span></p>
                         <div className="divider"></div>
@@ -44,7 +47,7 @@ const AppsDetails = () => {
                                 <h4 className="text-2xl md:text-4xl font-bold">{reviews}K</h4>
                             </div>
                         </div>
-                        <button disabled={app.installed} onClick={() => handleInstall(id)} className="btn md:btn-lg btn-success text-white mt-5 md:mt-10">Install Now ({size} MB)</button>
+                        <button disabled={isActive} onClick={() => handleInstall(id)} className="btn md:btn-lg btn-success text-white mt-5 md:mt-10">Install Now ({size} MB)</button>
                     </div>
                 </div>
                 <div className="divider"></div>
